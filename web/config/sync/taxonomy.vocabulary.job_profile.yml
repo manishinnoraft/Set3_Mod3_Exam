@@ -1,0 +1,8 @@
+uuid: 17e32e35-adaa-4201-b5fe-139c72dd9402
+langcode: en
+status: true
+dependencies: {  }
+name: 'Job Profile'
+vid: job_profile
+description: ''
+weight: 0

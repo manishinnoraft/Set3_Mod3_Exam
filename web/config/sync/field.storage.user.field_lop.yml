@@ -1,0 +1,20 @@
+uuid: bd7129b9-7c9b-4b55-a7a7-c6f7ca195bde
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_lop
+field_name: field_lop
+entity_type: user
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: a5671c6a-22b6-4e26-b098-2a05473491bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_lop
+  module:
+    - user
+id: user.user.field_lop
+field_name: field_lop
+entity_type: user
+bundle: user
+label: LOP
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

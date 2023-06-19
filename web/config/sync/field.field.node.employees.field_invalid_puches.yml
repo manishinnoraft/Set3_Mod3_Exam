@@ -1,0 +1,23 @@
+uuid: 1424d4fc-b3a3-442f-b492-ad242c10a4d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_invalid_puches
+    - node.type.employees
+id: node.employees.field_invalid_puches
+field_name: field_invalid_puches
+entity_type: node
+bundle: employees
+label: 'Invalid Puches'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

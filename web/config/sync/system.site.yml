@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: c21815b9-2bba-4069-a25c-5a624612ba2c
+name: 'Employee Management Portal'
+mail: admin@example.com
+slogan: ''
+page:
+  403: /node/1
+  404: /node/2
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: manish.vijay@innoraft.com

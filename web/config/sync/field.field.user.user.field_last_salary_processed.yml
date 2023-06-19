@@ -1,0 +1,24 @@
+uuid: 3053de3f-5650-4c93-8762-7d60063abd74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_last_salary_processed
+  module:
+    - datetime
+    - user
+id: user.user.field_last_salary_processed
+field_name: field_last_salary_processed
+entity_type: user
+bundle: user
+label: 'Last Salary Processed'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

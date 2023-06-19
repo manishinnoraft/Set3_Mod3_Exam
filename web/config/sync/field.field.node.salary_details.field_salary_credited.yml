@@ -1,0 +1,23 @@
+uuid: d9073f98-3a6a-41af-9e60-d810b3eae32e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_salary_credited
+    - node.type.salary_details
+id: node.salary_details.field_salary_credited
+field_name: field_salary_credited
+entity_type: node
+bundle: salary_details
+label: 'Salary Credited'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

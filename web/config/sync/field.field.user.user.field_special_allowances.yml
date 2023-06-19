@@ -1,0 +1,24 @@
+uuid: e8f2b44b-2f7d-4636-9bd7-1d08b3cba08b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_special_allowances
+  module:
+    - user
+id: user.user.field_special_allowances
+field_name: field_special_allowances
+entity_type: user
+bundle: user
+label: 'Special Allowances'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

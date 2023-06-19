@@ -1,0 +1,23 @@
+uuid: 974a6ee8-c1ef-4fc6-aed5-e8d52629226b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_late_marks
+    - node.type.employees
+id: node.employees.field_late_marks
+field_name: field_late_marks
+entity_type: node
+bundle: employees
+label: 'Late Marks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

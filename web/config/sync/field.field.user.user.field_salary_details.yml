@@ -1,0 +1,23 @@
+uuid: 88229d5a-2b16-448a-9b34-ec76e31b9587
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_salary_details
+  module:
+    - user
+    - webform
+id: user.user.field_salary_details
+field_name: field_salary_details
+entity_type: user
+bundle: user
+label: 'Salary Details'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings: {  }
+field_type: webform

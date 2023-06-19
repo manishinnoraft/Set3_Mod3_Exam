@@ -1,0 +1,19 @@
+uuid: 826cbd14-3bc1-499b-aa04-1e9d7003c50c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_profile
+    - node.type.employees
+id: node.employees.field_job_profile
+field_name: field_job_profile
+entity_type: node
+bundle: employees
+label: 'Job Profile'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

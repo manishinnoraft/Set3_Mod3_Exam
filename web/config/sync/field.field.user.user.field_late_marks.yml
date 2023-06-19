@@ -1,0 +1,24 @@
+uuid: 83740b9a-97b1-49d7-bc56-d86a8d89e28c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_late_marks
+  module:
+    - user
+id: user.user.field_late_marks
+field_name: field_late_marks
+entity_type: user
+bundle: user
+label: 'Late Marks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

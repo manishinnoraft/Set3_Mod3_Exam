@@ -1,0 +1,38 @@
+uuid: fc832e83-2826-4383-a13d-c7f032278f11
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.employees.field_holiday_this_year
+    - field.field.node.employees.field_image_user
+    - field.field.node.employees.field_invalid_puches
+    - field.field.node.employees.field_job_profile
+    - field.field.node.employees.field_late_marks
+    - field.field.node.employees.field_lop
+    - field.field.node.employees.field_registration_number
+    - field.field.node.employees.field_salary
+    - field.field.node.employees.field_user_type
+    - node.type.employees
+  module:
+    - user
+id: node.employees.teaser
+targetEntityType: node
+bundle: employees
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_holiday_this_year: true
+  field_image_user: true
+  field_invalid_puches: true
+  field_job_profile: true
+  field_late_marks: true
+  field_lop: true
+  field_registration_number: true
+  field_salary: true
+  field_user_type: true

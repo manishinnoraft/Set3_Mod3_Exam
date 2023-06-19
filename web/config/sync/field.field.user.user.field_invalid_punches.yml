@@ -1,0 +1,24 @@
+uuid: 98f15387-f05e-419a-ba6b-b3c2ea603d39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_invalid_punches
+  module:
+    - user
+id: user.user.field_invalid_punches
+field_name: field_invalid_punches
+entity_type: user
+bundle: user
+label: 'Invalid Punches'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,118 @@
+uuid: 669a19ec-f786-4dd3-af53-abca70997d46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.employees.field_holiday_this_year
+    - field.field.node.employees.field_image_user
+    - field.field.node.employees.field_invalid_puches
+    - field.field.node.employees.field_job_profile
+    - field.field.node.employees.field_late_marks
+    - field.field.node.employees.field_lop
+    - field.field.node.employees.field_registration_number
+    - field.field.node.employees.field_salary
+    - field.field.node.employees.field_user_type
+    - image.style.thumbnail
+    - node.type.employees
+  module:
+    - image
+    - user
+id: node.employees.default
+targetEntityType: node
+bundle: employees
+mode: default
+content:
+  field_holiday_this_year:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_image_user:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_invalid_puches:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_job_profile:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_late_marks:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_lop:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_registration_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_salary:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_user_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

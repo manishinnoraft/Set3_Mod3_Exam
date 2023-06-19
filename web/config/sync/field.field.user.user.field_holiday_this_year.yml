@@ -1,0 +1,24 @@
+uuid: 8bfe97fc-3091-48d3-95a5-13739f4de0b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_holiday_this_year
+  module:
+    - user
+id: user.user.field_holiday_this_year
+field_name: field_holiday_this_year
+entity_type: user
+bundle: user
+label: 'Holiday This Year'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

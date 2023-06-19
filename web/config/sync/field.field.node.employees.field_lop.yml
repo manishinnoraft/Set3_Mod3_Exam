@@ -1,0 +1,23 @@
+uuid: 976c40dc-6839-47e2-9404-c10993fd7d82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lop
+    - node.type.employees
+id: node.employees.field_lop
+field_name: field_lop
+entity_type: node
+bundle: employees
+label: LOP
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: 50.0
+  prefix: ''
+  suffix: ''
+field_type: decimal

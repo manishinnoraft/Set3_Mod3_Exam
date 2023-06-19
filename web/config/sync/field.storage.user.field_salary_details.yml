@@ -1,0 +1,20 @@
+uuid: 73bce8fb-534a-42ef-a344-10cb3009cdd2
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+    - webform
+id: user.field_salary_details
+field_name: field_salary_details
+entity_type: user
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

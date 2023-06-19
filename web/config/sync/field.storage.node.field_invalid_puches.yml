@@ -1,0 +1,20 @@
+uuid: ebe1cfa3-13ce-405b-b77f-189fd0f0df7c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_invalid_puches
+field_name: field_invalid_puches
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

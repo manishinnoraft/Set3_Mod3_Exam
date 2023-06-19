@@ -1,0 +1,51 @@
+uuid: e008deb0-362d-4494-96ab-fe36e1609f41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.salary_details.field_salary_credited
+    - field.field.node.salary_details.field_time_period
+    - field.field.node.salary_details.field_user_name
+    - node.type.salary_details
+  module:
+    - datetime
+    - user
+id: node.salary_details.default
+targetEntityType: node
+bundle: salary_details
+mode: default
+content:
+  field_salary_credited:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_time_period:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_user_name:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

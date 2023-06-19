@@ -1,0 +1,21 @@
+uuid: 4919e832-2c53-4258-88ff-bed9340b3833
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_period
+    - node.type.salary_details
+  module:
+    - datetime
+id: node.salary_details.field_time_period
+field_name: field_time_period
+entity_type: node
+bundle: salary_details
+label: 'Time Period'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

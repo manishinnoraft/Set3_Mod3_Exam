@@ -1,0 +1,29 @@
+uuid: 6fb572e1-497a-4053-9438-7d9b6140ddff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_user_name
+    - node.type.salary_details
+id: node.salary_details.field_user_name
+field_name: field_user_name
+entity_type: node
+bundle: salary_details
+label: 'User Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference
